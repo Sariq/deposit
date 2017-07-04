@@ -1,14 +1,18 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { VisaComponent } from './deposit/deposit-methods/visa/visa.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VisaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,70 @@
+/* When the input is not focused */
+md-input-container  {
+  color: white;
+}
+
+/* When the input is focused */
+md-input-container.md-input-focused label {
+  color: blue;
+}
+.mat-input-ripple , .mat-input-underline{
+      background-color: white!important;
+}
+
+/* do not group these rules */
+md-input-container .mat-input-placeholder {
+    color: #FFF;
+}
+
+.noUi-value-vertical{
+    margin-top: -90%;
+        padding-right: 45px;
+        padding-left: 0;
+
+}
+
+.noUi-marker-normal{
+    display: none;
+}
+
+.noUi-pips.noUi-pips-vertical{
+    direction: rtl;
+}
+
+.noUi-marker-vertical.noUi-marker-large{
+        margin-right: 25px;
+            width: 10px!important;
+
+}
+
+.noUi-connect{
+background: #317af2!important;
+}
+
+.noUi-target{
+        border: 0px!important;
+}
+
+.noUi-handle {
+    border: 0!important; 
+    border-radius: 19px!important;
+    background: #317af2!important;
+    cursor: default;
+     box-shadow: none!important;
+}
+
+.noUi-vertical {
+    width: 7px!important;
+}
+
+.noUi-handle:before, .noUi-handle:after{
+    content:none!important;
+}
+.noUi-vertical .noUi-handle{
+        width: 20px!important;
+    height: 20px!important;
+}
+
+.noUi-marker-large {
+    background: #317af2!important;
+}

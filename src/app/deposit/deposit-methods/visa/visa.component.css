@@ -55,6 +55,7 @@ background: #317af2!important;
 
 .noUi-vertical {
     width: 7px!important;
+    height:100%;
 }
 
 .noUi-handle:before, .noUi-handle:after{
@@ -68,3 +69,4 @@ background: #317af2!important;
 .noUi-marker-large {
     background: #317af2!important;
 }
+

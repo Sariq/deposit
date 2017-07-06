@@ -12,8 +12,8 @@ import 'hammerjs';
 @NgModule({
   declarations: [
     AppComponent,
-    VisaComponent,
-    NouisliderComponent
+    VisaComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -22,7 +22,8 @@ import 'hammerjs';
     MaterialModule,
     MdNativeDateModule,
     MdButtonModule, 
-    MdCheckboxModule
+    MdCheckboxModule,
+    NouisliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

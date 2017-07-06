@@ -8,8 +8,11 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "pree2e": "webdriver-manager update",
     "e2e": "ng e2e",
-    "sw": "sw-precache --root=dist --config=sw-precache-config.js"
+    "sw": "sw-precache --root=dist --config=sw-precache-config.js",
+    "static-serve": "cd dist && live-server --port=4200 --host=localhost --entry-file=/index.html"
+
   },
   "private": true,
   "dependencies": {

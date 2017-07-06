@@ -1,5 +1,5 @@
 import { Component, OnInit , ViewEncapsulation } from '@angular/core';
-
+import { NouisliderModule, NouisliderComponent} from 'ng2-Nouislider';
 
 @Component({
   selector: 'app-visa',
